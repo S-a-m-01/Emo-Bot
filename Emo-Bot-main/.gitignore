@@ -1,0 +1,52 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Databases & Vector Stores
+*.db
+*.sqlite3
+backend/data/chroma_db/
+backend/sql_app.db
+
+# Environment Variables
+.env
+.env.*
+backend/.env
+
+# Machine Learning / Models
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# Media / Outputs
+*.wav
+*.mp3
+*.mp4
+
+# Frontend Dependencies & Builds
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Unreal Engine Project
+unreal/Binaries/
+unreal/Intermediate/
+unreal/Saved/
+unreal/DerivedDataCache/
+unreal/Build/
+unreal/.vs/
+unreal/*.sln
+unreal/input.json
